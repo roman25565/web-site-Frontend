@@ -1,0 +1,35 @@
+.slider {
+    display: box;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+  }
+  
+  .slider__image {
+    width: 1100px;
+    height: 600px;
+  }
+  
+  .slider__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 50%;
+  }
+  
+  .slider__btn--previous {
+    left: 16px;
+  }
+  
+  .slider__btn--next {
+    right: 400px;
+  }
+  

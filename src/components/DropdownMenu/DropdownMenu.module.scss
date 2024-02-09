@@ -1,0 +1,140 @@
+.dropdownMenu {
+    position: relative;
+
+}
+
+.dropdownToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dropdownIcon {
+    font-size: 34px;
+}
+
+.dropdownContent {
+    position: absolute;
+    top: 100%;
+    right: auto;
+    width: 360px;
+    /* Збільшено ширину меню */
+    padding: 15px;
+    /* Збільшено внутрішні відступи меню */
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transform: translateX(calc(-100% + 40px));
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm input {
+    width: 100%;
+    padding: 22px;
+    /* Збільшено висоту поля */
+    margin-bottom: 10px;
+    border: none;
+    /* Видалено границю поля */
+    border-radius: 20px;
+    /* Заокруглення кутів поля */
+    background-color: #f1f1f1;
+}
+
+.loginForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.loginButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginButton {
+    padding-left: 20px;
+    background-color: #666666;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.loginButton:hover {
+    transform: scale(3);
+    font-size: 54px; /* Збільшений розмір шрифту при наведенні */
+  }
+
+
+.loginOptions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.loginOptions a {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+}
+
+.checkboxLabel {
+    margin-left: 5px;
+}
+
+.loginDivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.loginDivider span {
+    margin: 0 5px;
+}
+
+.googleLogin {
+
+    background-color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.googleIcon {
+    margin-right: 8px;
+    font-size: 50px;
+}
+
+.quickRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.quickRegister span {
+    margin: 0 5px;
+}
